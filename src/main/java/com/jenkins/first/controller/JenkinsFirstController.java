@@ -14,7 +14,7 @@ public class JenkinsFirstController {
 	}
 	
 	@GetMapping("/test")
-	public String hello() {
+	public String test() {
 		return "Test the Jenkins!";
 	}
 	
