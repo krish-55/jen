@@ -12,4 +12,10 @@ public class JenkinsFirstController {
 	public String hello() {
 		return "Hello, Jenkins!";
 	}
+	
+	@GetMapping("/test")
+	public String hello() {
+		return "Test the Jenkins!";
+	}
+	
 }
